@@ -25,11 +25,11 @@ int main()
 
     if (dice1 + dice2 > 7)
     {
-        printf("You win!\n");
+        printf("%s win!\n",str);
     }
     else
     {
-        printf("You lose!\n");
+        printf("%s lose!\n",str);
     }
 
     return 0;
